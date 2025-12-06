@@ -1,0 +1,64 @@
+.footer {
+    background: #fafafa;
+    padding: 48px 20px 72px;
+    font-family: 'Inter', sans-serif;
+    color: #333333;
+    border-top: 1px solid #e5e5e5;
+}
+
+.footerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footerColumn {
+    flex: 1 1 180px;
+    min-width: 140px;
+}
+
+.appTitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #4A90E2;
+    margin-bottom: 12px;
+}
+
+.appDescription {
+    font-weight: 400;
+    font-size: 15px;
+    color: #555555;
+    max-width: 220px;
+    line-height: 1.5;
+}
+
+.footerHeading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #1a1a1a;
+}
+
+.footerList {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: #555555;
+}
+
+.footerList li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.footerList li:hover {
+    color: #4A90E2;
+}
