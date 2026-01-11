@@ -1,5 +1,5 @@
 import "./Navbar.css";
-
+import ThemeToggle from "../ThemeToggle/ThemeToggle";
 export default function Navbar (){
     return(
     <nav className="navbar">
@@ -15,8 +15,8 @@ export default function Navbar (){
         <li><a href="#components">Components</a></li>
         <li><a href="#glassmophorism">Glassmophorism</a></li>
         <li><a href="#themes">Multi-Themes</a></li>
-
     </ul>
+    <ThemeToggle />
     </nav>
     );
 }
